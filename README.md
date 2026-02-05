@@ -246,5 +246,5 @@ MIT License — Research Use.
 
 **Attribution Clause:**
 If this software or any derivative work is used to discover a counterexample to the Beal Conjecture, or to establish new lower bounds, the user agrees to:
-1.  Credit **Project Goliath** and its authors in any resulting publication or prize claim.
+1.  Credit **Project Goliath** and its author (Rynaldo Stoltz) in any resulting publication or prize claim.
 2.  Coordinate the disclosure with the project maintainers to ensure verification integrity.
