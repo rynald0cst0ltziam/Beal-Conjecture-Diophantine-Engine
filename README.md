@@ -3,6 +3,7 @@
 [![Math](https://img.shields.io/badge/Mathematics-Beal_Conjecture-blue.svg)](https://en.wikipedia.org/wiki/Beal_conjecture)
 [![Engine](https://img.shields.io/badge/Engine-C%2FAVX2-red.svg)](#)
 [![Performance](https://img.shields.io/badge/Throughput-Millions%2Fsec-green.svg)](#)
+[![Prize](https://img.shields.io/badge/Prize-%241%2C000%2C000-gold.svg)](https://www.ams.org/profession/prizes-awards/ams-supported/beal-prize)
 
 A high-performance C/AVX2 computational framework for exhaustively searching for counterexamples to the Beal Conjecture — pushing **significantly deeper** than previous published records.
 
