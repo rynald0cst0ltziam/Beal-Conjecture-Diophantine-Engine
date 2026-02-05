@@ -186,6 +186,13 @@ Project Goliath is an active research initiative with a three-phase roadmap:
 
 **Current Focus:** Phase II ("Mission Million") is currently executing overnight runs to exhaustively clear the "Miracle Zone" where historical counterexamples to Euler's Sum of Powers were found.
 
+### 🛸 Phase III: Titan Expansion (Post-Million Strategy)
+Upon completion of Phase II, Project Goliath will transition into the **Titan Sweep**, an architectural evolution designed to manage the jump to **100 Trillion** pairs:
+
+*   **Hybrid Sieve Architecture**: A tiered implementation adding an L2-optimized "Deep Filter" (Primes 21-100) behind our current L1-optimized sieve. This will virtually eliminate false survivors before they reach the GMP verification layer.
+*   **The "Secondary Forty" Sweep**: Expanding the signature list beyond the Elite Five to include 40 additional theoretical open cases, run to a standard 500,000 depth.
+*   **Skewed Search Logic**: Probing "The Long Tail" of the conjecture using asymmetric base ranges (e.g., A=10M, B=100k) to hunt for disparate-base counterexamples.
+
 ---
 
 ## 📁 Project Structure
