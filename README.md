@@ -29,11 +29,13 @@ A **counterexample** would be a solution where gcd(A, B, C) = 1.
 
 ### Our Improvement Over Previous Records
 
+### Our Improvement Over Previous Records
+
 | Metric | Previous Best | **Goliath Achieved** | **Improvement** |
 |--------|---------------|-------------|-----------------|
 | Small exponents (x,y,z ≤ 7) | 250,000 bases | **1,000,000** | **4x deeper** |
 | Large exponents (x,y,z > 7) | 10,000 bases | **1,000,000** | **100x deeper** |
-| Total pairs (Elite 5) | ~62.5 Billion | **2.75 Trillion** | **Full Industrial Scale** |
+| Total pairs (Goliath + Atlas) | ~62.5 Billion | **4.0 Trillion** | **Full Industrial Scale** |
 
 ---
 
@@ -65,11 +67,15 @@ While historical searches checked thousands of signatures simultaneously, Projec
 
 | ID | Signature | Mathematical Type | Result | **Depth** | **Integrity Hash (Proof)** |
 |----|-----------|-------------------|--------|-----------|---------------------------|
-| G1 | (4, 5, 6) | Mixed Parity | CLEAR | **1,000,000 ✅** | `06bcd83fdc9d3130` |
-| G2 | (3, 4, 11) | Large Prime Exponent | CLEAR | **1,000,000 ✅** | `4b8352d86a1031f7` |
-| G3 | (3, 5, 7) | Triple Prime | CLEAR | **500,000 ✅** | `ad96b38d35c93b42` |
-| G4 | (3, 4, 13) | Prime Exponent Z | CLEAR | **500,000 ✅** | `834cf58eb44e7f83` |
-| G5 | (5, 6, 7) | Sequential | CLEAR | **500,000 ✅** | `d0a09c9f0a1641fb` |
+| **A1** | (3, 3, 4) | Smallest Triple | 500,000 | CLEAR | `898528ab14a83b93` |
+| **A2** | (3, 3, 5) | Quintic Residue | 500,000 | CLEAR | `9ab6a61ead05d7d2` |
+| **G2** | (3, 4, 11) | Large Exponent Z | 1,000,000 | CLEAR | `4b8352d86a1031f7` |
+| **G4** | (3, 4, 13) | Deep Prime Z | 500,000 | CLEAR | `834cf58eb44e7f83` |
+| **G3** | (3, 5, 7) | Triple Prime | 1,000,000 | CLEAR | `b2e0790ed72d3fae` |
+| **G1** | (4, 5, 6) | Mixed Parity | 1,000,000 | CLEAR | `06bcd83fdc9d3130` |
+| **G5** | (5, 6, 7) | Sequential | 500,000 | CLEAR | `d0a09c9f0a1641fb` |
+
+> **Note:** Verified Depth represents the exhaustive search limit for bases A and B. A depth of 1,000,000 equates to **1.0 Trillion** candidate pairs tested for that specific exponent signature.
 
 ### Why these matter?
 For many exponent combinations $(x,y,z)$, mathematicians have proven that no primitive solution exists using Frey curves or modular forms. The **Elite Five** represent the frontiers of the conjecture—the signatures where the proof of non-existence is purely computational.
