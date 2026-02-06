@@ -29,8 +29,6 @@ A **counterexample** would be a solution where gcd(A, B, C) = 1.
 
 ### Our Improvement Over Previous Records
 
-### Our Improvement Over Previous Records
-
 | Metric | Previous Best | **Goliath Achieved** | **Improvement** |
 |--------|---------------|-------------|-----------------|
 | Small exponents (x,y,z ≤ 7) | 250,000 bases | **1,000,000** | **4x deeper** |
